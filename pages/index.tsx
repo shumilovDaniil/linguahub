@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "../components/Header/Header";
 import { Footer } from "../components/Footer/Footer";
-import { Homepage } from "./Home";
+import { Homepage } from "../components/Home/Homepage";
 import globalStyles from "../styles/Global.module.scss";
 
 const Home: NextPage = () => {
