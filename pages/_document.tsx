@@ -13,35 +13,35 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="preload"
-            href="linguahub/fonts/Aleo-Light.woff"
+            href="fonts/Aleo-Light.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="linguahub/fonts/Aleo-LightItalic.woff"
+            href="fonts/Aleo-LightItalic.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="linguahub/fonts/Aleo-Regular.woff"
+            href="fonts/Aleo-Regular.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="linguahub/fonts/Aleo-Bold.woff"
+            href="fonts/Aleo-Bold.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="linguahub/fonts/Aleo-BoldItalic.woff"
+            href="fonts/Aleo-BoldItalic.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
@@ -50,7 +50,7 @@ class MyDocument extends Document {
 
           <link
             rel="preload"
-            href="linguahub/fonts/Bitter-Light.woff"
+            href="fonts/Bitter-Light.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
@@ -58,21 +58,21 @@ class MyDocument extends Document {
 
           <link
             rel="preload"
-            href="linguahub/fonts/Bitter-Regular.woff"
+            href="fonts/Bitter-Regular.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="linguahub/fonts/Bitter-Medium.woff"
+            href="fonts/Bitter-Medium.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="linguahub/fonts/Bitter-Bold.woff"
+            href="fonts/Bitter-Bold.woff"
             as="font"
             type="font/ttf"
             crossOrigin="anonymous"
