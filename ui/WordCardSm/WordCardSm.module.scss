@@ -1,0 +1,55 @@
+.card {
+  position: relative;
+  display: flex;
+  border-radius: 1px;
+  padding: 7px 7px 7px 21px;
+  background-color: #fff;
+  flex: 0 1 454px;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+}
+
+.status {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 12px;
+  height: 100%;
+  background-color: #B0B0B0;
+
+  &_started {
+    background-color: #FF2B2B;
+  }
+
+  &_middle {
+    background-color: #FFD43C;
+  }
+
+  &_completed {
+    background-color: #2ECA34;
+  }
+}
+
+
+.btn {
+  display: flex;
+
+  &_mute {
+    opacity: .3;
+  }
+}
+
+.transcription {
+  display: flex;
+}
+
+.btn_right {
+  display: flex;
+  align-items: center;
+
+  :not(:last-child) {
+    margin-right: 10px;
+  }
+}

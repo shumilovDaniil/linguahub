@@ -1,0 +1,87 @@
+.popup {
+  background: rgba(0, 0, 0, 0.64);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 10;
+}
+
+.window {
+  padding: 60px;
+  min-width: 560px;
+  max-width: 662px;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 0);
+  z-index: 50;
+  text-align: center;
+  background-color: #fff;
+  color: #111111;
+  border-radius: 1px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.top {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  &_close {
+    font-size: 30px;
+    color: #FF6813;
+  }
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.title {
+  padding-bottom: 17px;
+}
+
+.top_close {
+  justify-content: flex-end;
+}
+
+.input {
+  padding: 13px;
+  background-color: #D9D9D9;
+  min-width: 238px;
+  margin: 0 auto;
+  text-align: left;
+
+  &::placeholder {
+    color: #787878;
+  }
+}
+
+.btn {
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  min-width: 238px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #FF6813;
+}
+
+.btn_google {
+  background-color: #4285F4;
+}
+
+.btn_fb {
+  background-color: #1777F2;
+}
